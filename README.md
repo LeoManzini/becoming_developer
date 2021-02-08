@@ -48,3 +48,18 @@ This command allow you to switch your current branch to the one you specified.
 
 Now at your branch we start learning!
 
+## Control Structures
+
+This initial topic, will give to you some crucial insights, directly influencing the flow of execution of your code, being able to follow a line of reasoning during execution, being able to skip excerpts of code or make different decisions.
+At this topic we will see:
+  - For
+  - While
+  - Do while
+  - If else
+  - Switch
+  - Break
+  - Continue
+  - Try, catch and finally
+  
+### For
+
