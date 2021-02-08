@@ -12,7 +12,7 @@ To start see this contents at your computer you need to clone this repo at your 
 
 ![git-clone](https://user-images.githubusercontent.com/39606289/107230034-4c23f780-69fd-11eb-97b7-24943cfa0736.png)
 
-- Enter at the directory you want to save the repository, and in this folder at the terminal (or Git Bash if you want to), type the command and paste the link you clipped.
+- Enter at the directory you want to save the repository, and in this folder at the Command Prompt (or Git Bash if you want to), type the command and paste the link you clipped.
 
 ```
 git clone example_repository_link
