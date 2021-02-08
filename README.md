@@ -61,5 +61,12 @@ At this topic we will see:
   - Continue
   - Try, catch and finally
   
-### For
+At the folder control_structures we start to learn about them.
 
+![imagefolder](https://user-images.githubusercontent.com/39606289/107293867-245b8080-6a4b-11eb-8cda-1c92450c1389.png)
+
+*REMEMBER* at the moment we are not focusing on learning a programming language, but on control structures, because in all languages there are, with only syntax differences but the functioning being the same. Each thing at his time ...
+
+*“Patience you must have my young Padawan...”*
+  
+### For
