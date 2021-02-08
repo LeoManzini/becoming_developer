@@ -15,7 +15,7 @@ To start see this contents at your computer you need to clone this repo at your 
 - Enter at the directory you want to save the repository, and in this folder at the terminal (or Git Bash if you want to), type the command and paste the link you clipped.
 
 ```
-git clone link_sample.com
+git clone example_repository_link
 ```
 
 ![git-clone-terminal](https://user-images.githubusercontent.com/39606289/107232271-fd2b9180-69ff-11eb-92ae-53e6fb2da6a9.png)
