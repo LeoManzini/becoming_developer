@@ -3,21 +3,11 @@ Repository with study function and insertion at the job market as a junior devel
 
 # Being part of the project
 
-## GitHub - first part, forking and creating your learning branch
+## GitHub - first part, cloning and creating your learning branch
 
 First of all you need to create a GitHub account and install Git at your computer.
 
-To start see this contents at your computer you need to fork this repo at your GitHub account then clone this repo at your machine. 
-
-Fork is too much simple, just need a click at the screen at this repository!
-
-![forking](https://user-images.githubusercontent.com/39606289/107363834-7a670d00-6ab9-11eb-9a13-9a586ca9c74c.png)
-
-If the fork is done, this repo is at your GitHub account right now! 
-
-![forked](https://user-images.githubusercontent.com/39606289/107363055-5fe06400-6ab8-11eb-915b-43f08f1c9d9a.png)
-
-Now with the repo at your account let's clone it, cloning is literally copy this repository to your computer.
+To start see this contents at your computer you need to clone this repo at your machine, cloning is literally copy this repository to your computer.
 
 Starting clone, go to the repository and copy the link (use the link type you want).
 
