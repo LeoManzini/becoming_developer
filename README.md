@@ -79,4 +79,13 @@ At the folder control_structures we start to learn about them.
 
 *“Patience you must have my young Padawan...”*
   
+### Loops
+
+Known as repetition loops this Control Structure works as simple as the name loop, it repeats a specific block of code a number of times.
+
+Were created to save time and code, imagine you're working on a big project with hundreds of data, and need to make the same routine for each one of those, it will take bunch of time, right? In addition, we would have an extremely large and repetitive code, with equal commands to do the same things.
+
+So thinking in a way to solve these problems repetition loops were created, making the codes more compact, more readable and faster to be developed.
+
 ### For
+Now talking specifically about the for loop... to do 
