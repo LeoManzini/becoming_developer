@@ -23,7 +23,7 @@ Starting clone, go to the repository and copy the link (use the link type you wa
 
 ![git-clone](https://user-images.githubusercontent.com/39606289/107230034-4c23f780-69fd-11eb-97b7-24943cfa0736.png)
 
-- Enter at the directory you want to save the repository, and in this folder at the Command Prompt (or Git Bash if you want to), type the command and paste the link you clipped.
+Enter at the directory you want to save the repository, and in this folder at the Command Prompt (or Git Bash if you want to), type the command and paste the link you clipped.
 
 ```
 git clone https://github.com/LeoManzini/becoming_developer.git
