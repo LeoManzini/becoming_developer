@@ -18,7 +18,8 @@ If the fork is done, this repo is at your GitHub account right now!
 ![forked](https://user-images.githubusercontent.com/39606289/107363055-5fe06400-6ab8-11eb-915b-43f08f1c9d9a.png)
 
 Now with the repo at your account let's clone it, cloning is literally copy this repository to your computer.
-- Starting clone, go to the repository and copy the link (use the link type you want).
+
+Starting clone, go to the repository and copy the link (use the link type you want).
 
 ![git-clone](https://user-images.githubusercontent.com/39606289/107230034-4c23f780-69fd-11eb-97b7-24943cfa0736.png)
 
