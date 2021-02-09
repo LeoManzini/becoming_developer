@@ -3,11 +3,21 @@ Repository with study function and insertion at the job market as a junior devel
 
 # Being part of the project
 
-## GitHub - first part, cloning and creating your learning branch
+## GitHub - first part, forking and creating your learning branch
 
 First of all you need to create a GitHub account and install Git at your computer.
 
-To start see this contents at your computer you need to clone this repo at your machine. Cloning is literally copy this repository to your computer.
+To start see this contents at your computer you need to fork this repo at your GitHub account then clone this repo at your machine. 
+
+Fork is too much simple, just need a click at the screen at this repository!
+
+![forking](https://user-images.githubusercontent.com/39606289/107362918-2c053e80-6ab8-11eb-997d-0a3fb75c1c97.png)
+
+If the fork is done, this repo is at your GitHub account right now! 
+
+![forked](https://user-images.githubusercontent.com/39606289/107363055-5fe06400-6ab8-11eb-915b-43f08f1c9d9a.png)
+
+Now with the repo at your account let's clone it, cloning is literally copy this repository to your computer.
 - Starting clone, go to the repository and copy the link (use the link type you want).
 
 ![git-clone](https://user-images.githubusercontent.com/39606289/107230034-4c23f780-69fd-11eb-97b7-24943cfa0736.png)
@@ -18,7 +28,7 @@ To start see this contents at your computer you need to clone this repo at your 
 git clone https://github.com/LeoManzini/becoming_developer.git
 ```
 
-![git_clone_prompt](https://user-images.githubusercontent.com/39606289/107286510-73031d80-6a3f-11eb-845e-fc80d904d383.png)
+![git_clone_prompt](https://user-images.githubusercontent.com/39606289/107361310-f5c6bf80-6ab5-11eb-89cc-bc0065dafa87.png)
 
 Now that you have this repository at your computer, let's work on it!
 
@@ -27,14 +37,14 @@ To put your hands on code, you need to create your own branch, at the command pr
 ```
 git branch your_branch_name
 ```
-![image](https://user-images.githubusercontent.com/39606289/107287188-5b786480-6a40-11eb-9c52-4be13df36edd.png)
+![git_branch_name](https://user-images.githubusercontent.com/39606289/107361464-2eff2f80-6ab6-11eb-9ec4-8a79b5492a25.png)
 
 Doing that you create a branch with the name you gave to it! To see all the branches just type
 
 ```
 git branch
 ```
-![image](https://user-images.githubusercontent.com/39606289/107287307-8793e580-6a40-11eb-99bf-ffa7dfbe8b85.png)
+![git_branch_list](https://user-images.githubusercontent.com/39606289/107361614-6a99f980-6ab6-11eb-9d07-ceb64b8b6c14.png)
 
 The star (\*) show to you your current branch. Master branch is the principal branch, with all this content inside. 
 To navigate between the branches use the command:
@@ -42,7 +52,7 @@ To navigate between the branches use the command:
 ```
 git checkout branch_name
 ```
-![image](https://user-images.githubusercontent.com/39606289/107287606-f2ddb780-6a40-11eb-8f2c-040a75120161.png)
+![git_branch_switch](https://user-images.githubusercontent.com/39606289/107361800-ae8cfe80-6ab6-11eb-9867-e95db3c9f97e.png)
 
 This command allow you to switch your current branch to the one you specified. 
 
@@ -63,7 +73,7 @@ At this topic we will see:
   
 At the folder control_structures we start to learn about them.
 
-![imagefolder](https://user-images.githubusercontent.com/39606289/107293867-245b8080-6a4b-11eb-8cda-1c92450c1389.png)
+![control_structures](https://user-images.githubusercontent.com/39606289/107361918-daa87f80-6ab6-11eb-8237-94b5da5b06a2.png)
 
 *REMEMBER* at the moment we are not focusing on learning a programming language, but on control structures, because in all languages there are, with only syntax differences but the functioning being the same. Each thing at his time ...
 
