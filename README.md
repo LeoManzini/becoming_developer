@@ -11,7 +11,7 @@ To start see this contents at your computer you need to fork this repo at your G
 
 Fork is too much simple, just need a click at the screen at this repository!
 
-![forking](https://user-images.githubusercontent.com/39606289/107362918-2c053e80-6ab8-11eb-997d-0a3fb75c1c97.png)
+![forking](https://user-images.githubusercontent.com/39606289/107363834-7a670d00-6ab9-11eb-9a13-9a586ca9c74c.png)
 
 If the fork is done, this repo is at your GitHub account right now! 
 
@@ -27,8 +27,7 @@ Now with the repo at your account let's clone it, cloning is literally copy this
 ```
 git clone https://github.com/LeoManzini/becoming_developer.git
 ```
-
-![git_clone_prompt](https://user-images.githubusercontent.com/39606289/107361310-f5c6bf80-6ab5-11eb-89cc-bc0065dafa87.png)
+![git_clone](https://user-images.githubusercontent.com/39606289/107364676-86070380-6aba-11eb-833e-924a5eeceef8.png)
 
 Now that you have this repository at your computer, let's work on it!
 
@@ -37,7 +36,7 @@ To put your hands on code, you need to create your own branch, at the command pr
 ```
 git branch your_branch_name
 ```
-![git_branch_name](https://user-images.githubusercontent.com/39606289/107361464-2eff2f80-6ab6-11eb-9ec4-8a79b5492a25.png)
+![git_branch_name](https://user-images.githubusercontent.com/39606289/107364282-00835380-6aba-11eb-964e-498d66603cd8.png)
 
 Doing that you create a branch with the name you gave to it! To see all the branches just type
 
