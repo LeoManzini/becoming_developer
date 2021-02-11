@@ -82,20 +82,118 @@ it will take bunch of time, right? In addition, we would have an extremely large
 So thinking in a way to solve these problems repetition loops were created, making the codes more compact, more readable and faster to be developed.
 
 ### For
-Now talking specifically about the for loop that is used for execute a block of codes X number of times, testing if you reach the repetition limit. 
+Now talking specifically about the for loop that is used for execute a block of codes X number of times. 
 You choose to use For when you known how many times you want to execute the code block.
 
-Your use is very simple, you just need to write the sentence code bellow:
-
 ```
-for(counter; stop_condition; increment) {
-    //Here goes the code block to execute at each iteration
+// For loop standard scope
+for(variable; stop_condition; increment) {
+    // Here goes the code block to execute at each iteration
 }
 ```
 The For loop consists of three essential elements: 
-- A counter wich is a control element to the loop;
-- A stop condition that is a simple test, that compare if the counter is relative to a limit;
-- And a increase to the counter.
+- Declaring and initializing variables;
+
+The first part of the loop, where we can declare one or more variables (variables are just a computer memory space that hold a value). 
+They stay between parentheses after the For expression, and when we have more than one, we separete they with a comma.
+
+```
+// For loop variable declaration and initialization
+// You can declare the variable outside or inside the loop
+
+int variable_outside = 1;
+for(variable_outside; ;) {
+    // Here goes the code block to execute at each iteration
+}
+
+for(int variable_inside = 0; ; ) {
+    // Here goes the code block to execute at each iteration
+}
+
+int variable1 = 0;
+int variable2 = 1;
+for(variable1, variable2; ;) {
+    // Here goes the code block to execute at each iteration
+}
+
+for(int variable3, variable4; ;) {
+    // Here goes the code block to execute at each iteration
+}
+```
+The declaration and the initialization, happens just one time at the loop.
+
+- Conditional expression;
+
+At the second loop part, we have the conditional expression. It's make a reference to a test that will be executed and should return a boolean value.
+By this motive the condition should be a logical expression.
+
+Logical expressions are those whose value can only be true or false. We use them between the logical operators.
+
+```
+Logical Operators
+
+Higher than >                 // Compare if something is higher than other
+Lower than <                  // Compare if something is lower than other
+Higher or equal then >=       // Compare if something is higher or equal than other
+Lower or equal than <=        // Compare if something is lower or equal than other
+Equal ==                      // Compare if something is equal than other
+Conective AND &&              // Compare if two tests are true
+Conective OR ||               // Compare if one test is true
+Negative !                    // Invert the result of a expression, true become false and false become true
+```
+
+It's important to say that a logical expression can be complex, and have that use a connective expression to use more than one.
+
+```
+// First part declaration and initialization; conditional expression
+// Correct test
+for(int variable1 = 0, variable2 = 10; (variable1 < 10) && (variable2 > 5); ) {
+    // Here goes the code block to execute at each iteration
+}
+
+// Wrong test
+for(int variable1 = 0, variable2 = 10; (variable1 < 10), (variable2 > 5); ) {
+    // Here goes the code block to execute at each iteration
+}
+```
+The conditional expression happen at each loop iteration.
+
+- Iteration expression;
+
+At the iteration expression, we indicate what should happen with the variables after each loop execution. Ever should be processed after the loop be executed,
+and ever be the last For instruction.
+
+We use to increment or decrement the our variable initialized at the first For part and verified at the conditional expression.
+
+```
+Ways to increment or decrement a var
+
+variable++              // After increment, use the variable and after increase her value by one
+++variable              // Before increment, increase her value and after use the variable
+variable--              // After decrement, use the variable and after decrease her value by one
+--variable              // Before decrement, decrease her value and after use the variable
+variable += 1           // Sum a number (at this case 1) to the variable 
+variable -= 1           // Subtract a number (at this case 1) to the variable 
+variable *= 1           // Multiplies a number (at this case 1) to the variable 
+variable /= 1           // Divide a number (at this case 1) to the variable
+variable %= 1           // Divide a number (at this case 1), and the exact rest go to the variable
+```
+The iteration expression is executed at each loop iteration.
+```
+// Corrects For examples
+for(int variable = 0; variable < 10; variable++) {
+    // Here goes the code block to execute at each iteration
+}
+
+for(int variable = 0, variable1 = 10; (variable < 10) && (variable1 > 5); variable++) {
+    // Here goes the code block to execute at each iteration
+}
+
+for(int variable = 0; variable < 10; variable+=2) {
+    // Here goes the code block to execute at each iteration
+}
+```
+So... todo conclusion and diferents for's
 
 ![for_java](https://user-images.githubusercontent.com/39606289/107429238-74e1e500-6b02-11eb-8239-456a448f1511.png)
 
