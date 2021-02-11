@@ -87,7 +87,7 @@ You choose to use For when you known how many times you want to execute the code
 
 ```
 // For loop standard scope
-for(variable; stop_condition; increment) {
+for(initializing_variable; conditional_expression; iteration_expression) {
     // Here goes the code block to execute at each iteration
 }
 ```
