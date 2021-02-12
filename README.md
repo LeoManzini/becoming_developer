@@ -32,7 +32,7 @@ git branch your_branch_name
 
 Doing that you create a branch with the name you gave to it! To see all the branches just type
 
-```
+``` 
 git branch
 ```
 ![git_branch_list](https://user-images.githubusercontent.com/39606289/107361614-6a99f980-6ab6-11eb-9d07-ceb64b8b6c14.png)
@@ -40,7 +40,7 @@ git branch
 The star (\*) show to you your current branch. Master branch is the principal branch, with all this content inside. 
 To navigate between the branches use the command:
 
-```
+``` 
 git checkout branch_name
 ```
 ![git_branch_switch](https://user-images.githubusercontent.com/39606289/107361800-ae8cfe80-6ab6-11eb-9867-e95db3c9f97e.png)
@@ -85,7 +85,7 @@ So thinking in a way to solve these problems repetition loops were created, maki
 Now talking specifically about the for loop that is used for execute a block of codes X number of times. 
 You choose to use For when you known how many times you want to execute the code block.
 
-```
+``` java
 // For loop standard scope
 for(initializing_variable; conditional_expression; iteration_expression) {
     // Here goes the code block to execute at each iteration
@@ -97,7 +97,7 @@ The For loop consists of three essential elements:
 The first part of the loop, where we can declare one or more variables (variables are just a computer memory space that hold a value). 
 They stay between parentheses after the For expression, and when we have more than one, we separete they with a comma.
 
-```
+``` java
 // For loop variable declaration and initialization
 // You can declare the variable outside or inside the loop
 
@@ -129,7 +129,7 @@ By this motive the condition should be a logical expression.
 
 Logical expressions are those whose value can only be true or false. We use them between the logical operators.
 
-```
+``` java
 Logical Operators
 
 Higher than >                 // Compare if something is higher than other
@@ -144,7 +144,7 @@ Negative !                    // Invert the result of a expression, true become 
 
 It's important to say that a logical expression can be complex, and have that use a connective expression to use more than one.
 
-```
+``` java
 // First part declaration and initialization; conditional expression
 // Correct test
 for(int variable1 = 0, variable2 = 10; (variable1 < 10) && (variable2 > 5); ) {
@@ -165,7 +165,7 @@ and ever be the last For instruction.
 
 We use to increment or decrement the our variable initialized at the first For part and verified at the conditional expression.
 
-```
+``` java
 Ways to increment or decrement a var
 
 variable++              // After increment, use the variable and after increase her value by one
@@ -179,7 +179,7 @@ variable /= 1           // Divide a number (at this case 1) to the variable
 variable %= 1           // Divide a number (at this case 1), and the exact rest go to the variable
 ```
 The iteration expression is executed at each loop iteration.
-```
+``` java
 // Corrects For examples
 for(int variable = 0; variable < 10; variable++) {
     // Here goes the code block to execute at each iteration
@@ -193,22 +193,36 @@ for(int variable = 0; variable < 10; variable+=2) {
     // Here goes the code block to execute at each iteration
 }
 ```
-So... todo conclusion and diferents for's
+So the loop for is compose of:
 
-![for_java](https://user-images.githubusercontent.com/39606289/107429238-74e1e500-6b02-11eb-8239-456a448f1511.png)
-
-At this sample, we're atributting a value to the counter, the stop condition is the counter be higher or equal then ten, and with the sentence:
+``` java
+for(int variable = 1; variable < 5; variable++) {
+    int           // Type of the variable;
+    variable = 1  // Declaring and initializing the variable;
+    variable < 5  // Boolean test made at the variable;
+    variable++    // Variable iteration, what happens to it.
+}
 ```
-counter++
+But we can manipulate more the For structure, mading it runs infinitely or just be like others loops we'll see.
+
+``` java
+int counter = 0;
+for( ; counter < 10; )        // This For loop behaves like the While loop, 
+                              // because this boolean test is always truth
+
+for( ; ; )                    // This For loop runs infinitely, until an external force stop it
 ```
-We're increasing the counter by one at each iteration! The code block at this example just print at the screen the value of our counter, so we have:
 
-![wrong_result](https://user-images.githubusercontent.com/39606289/107429777-11a48280-6b03-11eb-959f-e7db547590f1.png)
+We can use them nested and give them names too. This name function is called labeled loops.
+``` java
+external: for( ; ; ) {
+              internal: for( ; ; ) {
+              }
+          }
+```
+Now, at the control structures_folder, inside the src folder, we have a Java program called For.java, it have examples of the For uses. 
+Read and try to rewrite them and understand, after this we continue with the next chapter!
 
-Just nine iterations... But why this happens, if our stop condition is ten times?
+### While
 
-It's simple my friend! These tests in general take everything to the letter, so let's see better... Nine is lower than ten (9 < 10)? 
-Yes, print the counter that value nine and increase it by one. Now we have that trick, ten is lower than ten (10 < 10)? No, so we don't print the 
-counter this time!
-
-The test we made is a logical test... todo
+Todo
