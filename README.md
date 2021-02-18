@@ -225,4 +225,106 @@ Read and try to rewrite them and understand, after this we continue with the nex
 
 ### While
 
-Todo
+The While loop is a repetition structure like the For one, but it works in a different way. While the For loop works a determinated number of times, 
+the While loop works until a condition be false, while the condition is true!
+
+``` java
+// Standard While structure
+while(condition) {
+    // Block of code
+}
+```
+The condition that makes the While loop repeat itself should return a boolean value like at the For loop (See the conditional expression at the For session).
+
+So, practically, the While loop checks if the conditional test is true, if it is, repeat this block of code.
+
+``` java
+double salary = 2000;
+
+// This code makes simple to understand the While loop,
+// while your salary be lower than 5000, increase it by the expression!
+while (salary < 5000) {
+    salary *= 100;
+}
+```
+
+But we have a problem at the While loop, if your test start as false, and you need to execute the block of code at least one time, 
+it will not even enter the loop who wish to execute the code block... But we have a solution to this, the Do While loop!
+
+### Do While
+
+As stated above, the Do While loop works very similar to the While loop, with only one difference, this loop executes the code block at least once,
+even with the conditional test being false. 
+It happens because we have the Do expression, that is basically saying do this (first), while this condition is true.
+
+``` java
+// Standard Do While structure
+do {
+    // Code block
+} while(condition);
+```
+
+Because of the Do expression, we enter at the code block at least once, even the condition is false.
+
+Now, at the control structures_folder, inside the src folder, we have a Java program called While.java and DoWHile.java, it have examples of the While 
+and Do While uses. Read and try to rewrite them and understand, after this we continue with the next chapter!
+
+### Continue
+
+The Continue command is like another kind of code control within your loop, and once used the loop immediately returns to its conditional test.
+As if that were not enough, Continue can be used in all repetition loops.
+
+``` java
+// Continue use sample with while
+while(condition) {
+    // Block of code
+    continue;
+    // Block of code that will be ignored, because the continue makes the loop go to the test again
+}
+
+// Continue use sample with for
+for(int counter = 0; counter < 10; counter++) {
+    // Block of code
+    continue;
+    // Block of code that will be ignored, because the continue makes the loop go to the test again
+}
+
+// Continue use sample with do while
+do {
+    // Block of code
+    continue;
+    // Block of code that will be ignored, because the continue makes the loop go to the test again
+} while(condition);
+```
+
+### Break 
+
+The Break command, equals the Continue, is like another kind of code control within your loop, and once used we exit from the loop immediately,
+executing the next line of code and continuing the execution of your code outside the loop.
+As if that were not enough, Continue can be used in all repetition loops.
+
+``` java
+// Break use sample with while
+while(condition) {
+    // Block of code
+    break;
+    // Block of code that will be ignored, because the break makes the loop exit
+}
+
+// Break use sample with for
+for(int counter = 0; counter < 10; counter++) {
+    // Block of code
+    break;
+    // Block of code that will be ignored, because the break makes the loop exit
+}
+
+// Break use sample with do while
+do {
+    // Block of code
+    break;
+    // Block of code that will be ignored, because the break makes the loop exit
+} while(condition);
+```
+
+Now, at the control structures_folder, inside the src folder, we have a Java program called LoopControl.java, it have examples of the Continue and 
+Break uses. Read and try to rewrite them and understand, after this we continue with the next chapter!
