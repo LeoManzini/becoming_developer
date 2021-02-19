@@ -10,7 +10,7 @@ public class For {
 		
 		  // counter   ; stop condition ; increment  standard For.
 		for(counter = 1; counter < 10; counter++) {
-			System.out.println(counter);
+			System.out.println("Current number:" + counter);
 		}
 		
 		// Nested loops
