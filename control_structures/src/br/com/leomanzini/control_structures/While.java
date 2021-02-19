@@ -6,12 +6,12 @@ public class While {
 		
 		// Don't stick to the syntax for now, understand the repetition loop!!
 		
-		 int condition = 1;
+		 int counter = 1;
 		 
 		 // Loop to print ten numbers
-		 while(condition <= 10) {
-			 System.out.println("Current number: " + condition);
-			 condition++;
+		 while(counter < 10) {
+			 System.out.println("Current number: " + counter);
+			 counter++;
 		 }
 
 		 // Infinitive loop, press ctrl + c to stop it
