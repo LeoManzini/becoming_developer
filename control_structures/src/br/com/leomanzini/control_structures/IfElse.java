@@ -11,16 +11,16 @@ public class IfElse {
 		boolean test = true;
 		
 		if (test) {
-			System.out.println("Entered the first if");
+			System.out.println("Test is true.");
 		} else {
-			System.out.println("Entered the first else.");
+			System.out.println("Test is false.");
 		}
 		
 		// Second if with the verification denying the test value
 		if (!test) {
-			System.out.println("Entered the second if.");
+			System.out.println("Negate test is true.");
 		} else {
-			System.out.println("Entered the second else.");
+			System.out.println("Negate test is false.");
 		}
 		
 		// Verify the final grade of a student
