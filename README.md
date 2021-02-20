@@ -404,7 +404,7 @@ Read and try to rewrite them and understand, after this we continue with the nex
 A feature similar to If Else for decision making, but coded in one line.
 
 ``` java
-// Standard Ternary Operatos structure
+// Standard Ternary Operator structure
 (boolean_expression) ? code_if_expression_is_true : code_if_expression_is_false;
 ```
 When evaluating the Boolean expression, after the question mark, there is the code block that will be executed if the condition is true, 
