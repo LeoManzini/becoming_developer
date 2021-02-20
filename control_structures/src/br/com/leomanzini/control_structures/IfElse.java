@@ -58,6 +58,17 @@ public class IfElse {
 		} else {
 			System.out.println("I don't know the time of day now, so Hi!");
 		}
+		
+		// Verifying the inventory amount about a specific product
+		int inventory = 10; 
+
+		if (inventory >= 100) {
+			System.out.println("Enough quantity.");
+		} else if (inventory < 100 && inventory > 50) {
+			System.out.println("Alert: Evaluate the possibility of a new order.");
+		} else {
+			System.out.println("ATTENTION! Place a new order.");
+		}
 	}
 
 }
