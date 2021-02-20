@@ -328,3 +328,84 @@ do {
 
 Now, at the control structures_folder, inside the src folder, we have a Java program called LoopControl.java, it have examples of the Continue and 
 Break uses. Read and try to rewrite them and understand, after this we continue with the next chapter!
+
+### If Else
+
+The conditional structures allow the code take some decisions and follow a right way or another at your code. 
+Through they we can say to the system execute some block of code, case one condition is satisfied or won't.
+
+The If Else structure allow your program evaluate if a determined expression is true or false, and according to the test results,
+take a path in the code or another.
+
+``` java
+// Standard If Else structure
+if (boolean_condition) {
+    // Block of code
+} else {
+    // Block of code
+}
+```
+
+#### If
+
+The If part of the code, has a check that accepts a Boolean test and checks if the result of it is true, if it is the code, enter the If block.
+
+``` java
+if (condition == value) {
+    // Sometimes even this test is unecessary, if we already compare a boolean value
+}
+
+if (contition) {
+    // Like here, the condition already have a boolean value
+}
+```
+
+#### Else
+
+The Else part of code is ever linked to a If, never forget this the If exist without an Else structure, but an Else not.
+Because this the Else structure doesn't have a conditional test, it is dependent of the If test, if the test is true execute the If block of code,
+if is false execute the Else, is so much simple, If is for true and Else for false.
+
+``` java
+if (condition) {
+    // If the condition is true, enter the If structure and execute this block
+} else {
+    // If the condition tested at the If is false, 
+    // automatically enter the Else structure and execute this block
+    // because that the else doesn't have a test it can't exist without an If
+}
+```
+
+#### Else If
+
+If you want to have more than one test on a value, it is customary to use Else If to do this, since it is an extension of If with conditional testing.
+
+``` java
+if (condition) {
+    // Block of code
+} else if (another_condition) {      // Standard Else If structure
+    // Block of code
+} else {
+    // Block of code
+}
+```
+
+That way if more than one test is needed, we can run the tests in that format. 
+If the test of the first If goes false, the code flow leads to test the Else If, which works just like an If, actually as if they were nested Ifs.
+
+Is ever linked to a If structure as well, but unlike Else, wich we can have only one as a standard execution if you don't enter any tests, 
+we can have several Else If, however no matter how many checks there are, once the program enters one, it will not enter another one.
+
+Now, at the control structures_folder, inside the src folder, we have a Java program called IfElse.java, it have examples of the If, Else and Else If uses. 
+Read and try to rewrite them and understand, after this we continue with the next chapter!
+
+### Ternary Operator
+
+A feature similar to If Else for decision making, but coded in one line.
+
+``` java
+// Standard Ternary Operatos structure
+(boolean_expression) ? code_if_expression_is_true : code_if_expression_is_false;
+```
+
+todo
