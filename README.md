@@ -407,5 +407,11 @@ A feature similar to If Else for decision making, but coded in one line.
 // Standard Ternary Operatos structure
 (boolean_expression) ? code_if_expression_is_true : code_if_expression_is_false;
 ```
+When evaluating the Boolean expression, after the question mark, there is the code block that will be executed if the condition is true, 
+after the colon there is the false expression code.
 
-todo
+The ternary operator is a more "economical" way of making decisions, with one line having an if and an else and the code for both. 
+However, for better evaluated decisions, this method does not serve, because it only solves the problem for something true or false in this test.
+
+Now, at the control structures_folder, inside the src folder, we have a Java program called TernaryOperator.java, it have examples of the Ternary
+Operator use. Read and try to rewrite them and understand, after this we continue with the next chapter!
