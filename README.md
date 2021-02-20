@@ -431,4 +431,41 @@ switch (variable) {
 }
 ```
 
+But something interesting happens in the Cases of the switch, because even if it enters in any, it will continue to check if there are more cases that 
+match, to execute only one of the cases we have to use the keyword Break, as we saw above.
+
+``` java
+// Standard Switch structure
+switch (variable) {
+    case value :
+        // Block of code to execute if the variable have this value
+        break;  // Now just execute this case if is equal 
+    case another_value :
+        // Other block of code to this other value
+        break;
+}
+```
+
+The Switch has a default case to enter if nothing of the others cases don't match to the variable value.
+
+
+``` java
+// Standard Switch structure
+switch (variable) {
+    case value :
+        // Block of code to execute if the variable have this value
+        break;  // Now just execute this case if is equal 
+    case another_value :
+        // Other block of code to this other value
+        break;
+    default :
+        // Code executed if nothing match previously
+}
+```
+
+Now, at the control structures_folder, inside the src folder, we have a Java program called Switch.java, it have examples of the Switch
+use. Read and try to rewrite them and understand, after this we continue with the next chapter!
+
+### Try Catch
+
 todo
