@@ -415,3 +415,20 @@ However, for better evaluated decisions, this method does not serve, because it 
 
 Now, at the control structures_folder, inside the src folder, we have a Java program called TernaryOperator.java, it have examples of the Ternary
 Operator use. Read and try to rewrite them and understand, after this we continue with the next chapter!
+
+### Switch
+
+Is a conditional structure that test some variable value, and intent of the value inside the variable allow execute one between the multiple
+actions, being able to replace chained Ifs with a "simpler" code.
+
+``` java
+// Standard Switch structure
+switch (variable) {
+    case value :
+        // Block of code to execute if the variable have this value
+    case another_value :
+        // Other block of code to this other value
+}
+```
+
+todo
