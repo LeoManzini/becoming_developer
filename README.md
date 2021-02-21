@@ -468,4 +468,127 @@ use. Read and try to rewrite them and understand, after this we continue with th
 
 ### Try Catch
 
-todo
+The Try block is used in code snippets with the tendency to generate errors, and so instead of the system crashing, it tries to make a deal with it.
+
+``` java
+// Standard Try structure
+try {
+    // Block of code that can generate errors
+}
+```
+
+We have linked with the Try structure a Catch structure, which inside the parentheses have the code error you want to treat.
+Each Try block can have zero or more Catchs, with each one have one error to treat.
+
+``` java
+// Standard Try with Catch structure
+try {
+    // Block of code that can generate errors
+} catch (exception x) {
+    // Block of code to treat the x exception
+} catch (exception y) {
+    // Block of code to treat the y exception
+}
+```
+
+The exceptions at the Catch structure and they respectives names, are specific to each programming language, but one exception have at least
+one string that describe the error. At java we can obtain the description using the ```getMessage()``` function.
+
+Since exceptions are part of a class hierarchy, the more general exceptions (closer to the top of the hierarchy) encompass a variety of exceptions.
+
+``` java
+// Standard Try with the most generic Catch structure
+try {
+    // Block of code that can generate errors
+} catch (Exception e) {
+    // Block of code to treat the exception
+} 
+```
+
+The order in which we make exceptions available in the Catch blocks matters a lot, as we need to do from the most specific to the most generic,
+making it so that if there is a specific error we can deal with it more specifically instead of the generic.
+
+``` java
+// Standard Try with Catch structure ordered by most specifically exception
+try {
+    // Block of code that can generate errors
+} catch (NullPointerException e) {
+    // Block of code to treat a most specifically exception
+} catch (Exception e) {
+    // Block of code to treat the most generic exception
+}
+```
+
+We have an optional block to add to the Try Catch structure that is the Finally. The Finally structure isn't mandatory for the proper functioning of the
+Try Catch, but when we have a Finally structure it will execute regardless of whether it worked or failed in the code block inside Try structure.
+
+
+``` java
+// Standard Try with Catch and Finally structure
+try {
+    // Block of code that can generate errors
+} catch (exception x) {
+    // Block of code to treat the x exception
+} catch (exception y) {
+    // Block of code to treat the y exception
+} finally {
+    // Block of code that will execute regardless of whether it worked or failed
+}
+```
+
+### Throw and throws
+
+When we don't want an exception to be handled in the method or class itself, but in another one that calls it, we use the Throws command, 
+which practically sets an error in your class or method.
+
+``` java
+// Standard way to set an exception using Throws
+private static void increaseLetters() throws NullPointerException {
+    // Block of code that will be executed and will throw the exception
+}
+public static void main (String args []) {
+    try {
+        increaseLetters();  // Try to use that function, but it will throws the exception
+    } catch (NullPointerException e) {
+        // Treat for the exception
+    }
+}
+```
+
+We can change the exception we throw, forcing the code to use the exception we are saying to use.
+
+``` java
+// Standard way to set an exception using Throws and Throw another exception
+private static void increaseLettersThrowingGenericException() throws Exception // Forcing a generic exception {
+    try {
+	      // Block of code that will try to execute
+	  } catch(NullPointerException e) { // Treating the error that gave
+	        throw new Exception(e); // Forcing a new exception
+    }
+}
+```
+
+We can create our exceptions too, just need to create a class in java that extends the Exception class and override the method ```getMessage()```
+to show the message we want.
+
+``` java
+// Standard way to create your exception
+public class myException extends Exception {
+    @Override
+    public String getMessage () {
+        return "The error message goes here.";
+    }
+}
+```
+
+``` java
+// Standard way call and use your exception
+public class ExceptionTest {
+    public static void main (String args []) throws myException {
+        throw new myException();
+    }
+}
+```
+
+Now, at the control structures_folder, inside the src folder, we have a Java program called TryCatch.java and WithoutBExeption.java, 
+it have examples of the Try Catch and Throw use. Read and try to rewrite them and understand, after this we continue with the next chapter!
