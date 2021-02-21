@@ -594,6 +594,6 @@ public class ExceptionTest {
 Now, at the control structures_folder, inside the src folder, we have a Java program called TryCatch.java and WithoutBExeption.java, 
 it have examples of the Try Catch and Throw use. Read and try to rewrite them and understand, after this we continue with the next chapter!
 
-## Data Structure
+## Data Structures
 
 todo
