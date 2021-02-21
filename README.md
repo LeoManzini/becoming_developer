@@ -62,6 +62,7 @@ At this topic we will see:
   - Break
   - Continue
   - Try, catch and finally
+  - Throw and throws
   
 At the folder control_structures we start to learn about them.
 
