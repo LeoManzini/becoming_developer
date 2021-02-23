@@ -596,6 +596,13 @@ it have examples of the Try Catch and Throw use. Read and try to rewrite them an
 
 ## Data Structures
 
+A data structure (DS), in collection science, is a collection of both values (and its own) and operations (on values and structures). 
+It is a concrete implementation of an abstract data type (ADT) or a basic or primitive data type (DT). At this section we will see:
+  - Vectors
+  - Matrix
+  - Lists
+  - TODO
+
 ### Vector
 
 They are data structures that store a fixed amount of a certain type of data. For this reason, they are also known as homogeneous data structures.
