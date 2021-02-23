@@ -596,4 +596,83 @@ it have examples of the Try Catch and Throw use. Read and try to rewrite them an
 
 ## Data Structures
 
-todo
+### Vector
+
+They are data structures that store a fixed amount of a certain type of data. For this reason, they are also known as homogeneous data structures.
+Internally, a vector stores several values, each associated with a position within the vector.
+It is as if the vector was a dresser with several drawers (indexes) and in each drawer you have saved a certain data!
+
+You can access each vector by her data using the position you store the data, they are random data structures. Its size say to us the number of positions it
+have.
+
+``` java
+// Standard vector declaration
+vector_type vector_name[] = new vector_type [vector_size];
+
+int vector[] = new int [10];
+```
+
+We count the size of the vector starting from zero, so a vector of ten positions will always be 0 untill 9, that is, a vector will always have
+od indices marked by 0 untill Number -1. 
+The vectors can be of any type we want, but since it is declared of a type, it will only have data of that type.
+We can start the vectors with default values too.
+
+``` java
+// Default values for a vector
+String vector[] = {"Jhon", "Mary Poppins", "Mattew"};
+```
+
+Note that when we start the vectors with a default value, we do not use the word new to start the vector, and each vector position is separated with commas
+",".
+
+To access any value position, just use your name and the position you want to access
+
+``` java
+// Acessing the vector data
+int vector[] = new int [5];
+
+vector[0] = 1;
+vector[1] = 2;
+vector[2] = 3;
+vector[3] = 4;
+vector[4] = 5;
+```
+
+But do this for a vector with thousands of positions will take forever! So we use a for loop to fill the vector "automatically".
+
+``` java
+// Filling the vector with a For loop
+int vector[] = new int [5];
+
+for(int position = 0; position < vector.length; position++) {
+	vector[position] = position;
+}
+```
+
+That strange syntax! ```vector.length```? What this does? It's simple, it return the size of our vector, in this case the integer number nine.
+
+All right we filled the vector, but now how we see all his content? Right question and here we go with the right answer, using the For loop or a special For
+called For each.
+
+``` java
+// Walking through the vector with a normal For
+for(int position = 0; position < vector.length; position++) {
+	System.out.println("Data at this vector position: " + vector[position]);
+}
+
+// Walking through the vector with the For each
+for(int number_at_this_position : vector) {
+	System.out.println("Data at this vector position: " + number_at_this_position);
+}
+```
+
+It works in a very similar way to For, but with one difference, it makes iterations with a variable of the same type as the vector, 
+and each time the loop runs, this variable has the value of the content of the current position of the vector! Fantastic right? 
+Even better, we don't even need to specify a stop condition, as this loop runs through the entire vector until it reaches its end!
+
+Now, at the control structures_folder, inside the src folder, we have a Java program called Vector.java, 
+it have examples of the vectors use. Read and try to rewrite them and understand, after this we continue with the next chapter!
+
+### Matrix
+
+TODO
