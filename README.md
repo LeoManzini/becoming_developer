@@ -675,4 +675,57 @@ it have examples of the vectors use. Read and try to rewrite them and understand
 
 ### Matrix
 
+A declared vector can have any type of base, thus making it possible to create a vector of vectors, or a matrix.
+
+``` java
+// Standard matrix declaration
+type name[][] = new type [size][size];
+
+// Declaring a matrix
+int matrix[][] = new int [2][2];
+
+// Declaring and initializing a matrix
+int matrix[][] = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} }
+```
+
+The first square brackets are for the lines of our matrix, and the second ones are for the column. Each line can have N columns, and can have diferents 
+sizes for each line.
+
+``` java
+// Declairing a matrix with two lines and a number different of columns to each line
+int matrix[][] = new int[2][];
+matrix[0] = new int [5]; // First line have 5 columns
+matrix[1] = new int [3]; // Second line have 3 columns
+
+// Declaring and initializing a matrix with different number of columns, like at the vector
+int matrix[][] = { {1, 2, 3}, {4, 5, 6, 7, 8}, {9, 10, 11, 12} };
+```
+
+To know the size of the matrix we also use the syntax ```.length```, but different from the vector, we use like bellow.
+
+``` java
+int matrix[][] = { {1, 2, 3}, {4, 5, 6, 7, 8}, {9, 10, 11, 12} };
+
+System.out.println(matrix.length); // Return the number of lines of this matrix
+System.out.println(matrix[line_number].length); // Return the number of columns to this line
+```
+
+Okay, we know all about they now... but how they store a bunch of data in just one vector or matrix?
+
+A vector or a matrix are how the old C language used to call, pointers. When we use the world ```new``` to create a vector or matrix, inside our computer
+the compiler of our language is saying to our memories: Look, I'm going to create a variable that needs X spaces in memory (vector size), 
+and that these spaces are linked together so we don't lose their reference, where they are.
+
+Basically what happens is that the compiler creates a pointer, a variable that stores the memory position reserved for each position of the vector,
+so, regardless of the size of what is inside the vector, it will be saved and will not be lost in your computer's memory.
+
+In Java and high-level languages we don't have to do it manually, the language interpreter does it automatically, so we have the String type in Java,
+which is nothing more than a vector of letters, with each letter occupying a position and the vector size being the size of the String.
+Interesting to know what the interpreter does for us, right?
+
+Now, at the control structures_folder, inside the src folder, we have a Java program called Matrix.java, 
+it have matrix use examples. Read and try to rewrite them and understand, after this we continue with the next chapter!
+
+### Lists
+
 TODO
