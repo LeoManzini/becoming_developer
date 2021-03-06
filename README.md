@@ -735,4 +735,59 @@ it have matrix use examples. Read and try to rewrite them and understand, after 
 
 ### Lists
 
-TODO
+Lists are data structures so much used. They store data in a list format (like it's name), basically a list is an amount of structures called as node. 
+Each node is a structure that store the data to be managed by the list. There are two types os lists, the linked list and the double linked list.
+
+#### How the linked list work
+
+At a linked list, each node in addition to knowing your own value, know where the next node is, that's why it's called linked, because the nodes are 
+tied with the indication of which is the next node.
+
+When we insert a new data at the list we add a new node to it, by the way this only node doesn't know where the next node is, because it still doesn't exist.
+We have that know where is the beginning of the list and where it's list end too. Because of this we have two more nodes, one pointing for the first node
+(first list item) and one pointing for the last one (last list item).
+
+![LinkedListOneNode](https://user-images.githubusercontent.com/39606289/110221296-44475e00-7eaa-11eb-8310-990f75f3743b.png)
+
+When we add a new node what we do is point the node we already had to the new one, that doesn't point to anyone, because is the last at the current list.
+
+![LinkedListTwoNodes](https://user-images.githubusercontent.com/39606289/110221442-026ae780-7eab-11eb-9d4c-7d0fb30add8b.png)
+
+#### How the double linked list work
+
+They work like the simple linked list, but have one difference, they are bidirectional, our nodes points to the next node and the last node at the same time, 
+making possible navigate at both sides, going to front and back.
+
+![DoubleLinkedListTwoNodes](https://user-images.githubusercontent.com/39606289/110221893-8920c400-7ead-11eb-9421-970b60c35abd.png)
+
+The lists can add and delete nodes at the position we want, just remember to makes the right pointing before delete or add some new nodes or some data will be floating 
+at your computer memory without we know where. They can be implemented using arrays or pointers. In Java we already have the list type created and ready to use,
+but for a better understanding we will create a class of lists ourselves.
+
+#### Implementing on Arrays
+
+Implementing list on arrays we have fixed positions and predetermined, where each element of our list should be inserted at one array position. But at the act of insertion
+or delete maybe we need to realocate all the elements at the array.
+
+![ListsOnArray](https://user-images.githubusercontent.com/39606289/110222651-86749d80-7eb2-11eb-9f9e-f39c759f562d.png)
+
+***Pro:*** 
+- It's simple;
+- Don't need understand about pointers and memory references to implement.
+
+***Con:***
+- Limitation on memory size;
+- Higher computational cost;
+- Exaggerated memory allocation.
+
+#### Linked implementation
+
+Implementing lists with pointers, we have all the nodes by themselves just storing the location of the next node or the last, and with more two nodes to the beginning
+and final of our list.
+
+***Pro:***
+- Extremely efficient in memory and processing costs;
+- No need to relocate all elements when adding or deleting a node.
+
+***Con:***
+- Involves more advanced programming concepts, such as pointers and memory references.
