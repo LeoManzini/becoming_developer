@@ -267,7 +267,7 @@ do {
 
 Because of the Do expression, we enter at the code block at least once, even the condition is false.
 
-Now, at the control structures_folder, inside the src folder, we have a Java program called While.java and DoWHile.java, it have examples of the While 
+Now, at the control_structures folder, inside the src folder, we have a Java program called While.java and DoWHile.java, it have examples of the While 
 and Do While uses. Read and try to rewrite them and understand, after this we continue with the next chapter!
 
 ### Continue
@@ -327,7 +327,7 @@ do {
 } while(condition);
 ```
 
-Now, at the control structures_folder, inside the src folder, we have a Java program called LoopControl.java, it have examples of the Continue and 
+Now, at the control_structures folder, inside the src folder, we have a Java program called LoopControl.java, it have examples of the Continue and 
 Break uses. Read and try to rewrite them and understand, after this we continue with the next chapter!
 
 ### If Else
@@ -397,7 +397,7 @@ If the test of the first If goes false, the code flow leads to test the Else If,
 Is ever linked to a If structure as well, but unlike Else, wich we can have only one as a standard execution if you don't enter any tests, 
 we can have several Else If, however no matter how many checks there are, once the program enters one, it will not enter another one.
 
-Now, at the control structures_folder, inside the src folder, we have a Java program called IfElse.java, it have examples of the If, Else and Else If uses. 
+Now, at the control_structures folder, inside the src folder, we have a Java program called IfElse.java, it have examples of the If, Else and Else If uses. 
 Read and try to rewrite them and understand, after this we continue with the next chapter!
 
 ### Ternary Operator
@@ -414,7 +414,7 @@ after the colon there is the false expression code.
 The ternary operator is a more "economical" way of making decisions, with one line having an if and an else and the code for both. 
 However, for better evaluated decisions, this method does not serve, because it only solves the problem for something true or false in this test.
 
-Now, at the control structures_folder, inside the src folder, we have a Java program called TernaryOperator.java, it have examples of the Ternary
+Now, at the control_structures folder, inside the src folder, we have a Java program called TernaryOperator.java, it have examples of the Ternary
 Operator use. Read and try to rewrite them and understand, after this we continue with the next chapter!
 
 ### Switch
@@ -464,7 +464,7 @@ switch (variable) {
 }
 ```
 
-Now, at the control structures_folder, inside the src folder, we have a Java program called Switch.java, it have examples of the Switch
+Now, at the control_structures folder, inside the src folder, we have a Java program called Switch.java, it have examples of the Switch
 use. Read and try to rewrite them and understand, after this we continue with the next chapter!
 
 ### Try Catch
@@ -591,7 +591,7 @@ public class ExceptionTest {
 }
 ```
 
-Now, at the control structures_folder, inside the src folder, we have a Java program called TryCatch.java and WithoutBExeption.java, 
+Now, at the control_structures folder, inside the src folder, we have a Java program called TryCatch.java and WithoutBExeption.java, 
 it have examples of the Try Catch and Throw use. Read and try to rewrite them and understand, after this we continue with the next chapter!
 
 ## Data Structures
@@ -677,7 +677,7 @@ It works in a very similar way to For, but with one difference, it makes iterati
 and each time the loop runs, this variable has the value of the content of the current position of the vector! Fantastic right? 
 Even better, we don't even need to specify a stop condition, as this loop runs through the entire vector until it reaches its end!
 
-Now, at the control structures_folder, inside the src folder, we have a Java program called Vector.java, 
+Now, at the data_structure folder, inside the src folder, we have a Java program called Vector.java, 
 it have examples of the vectors use. Read and try to rewrite them and understand, after this we continue with the next chapter!
 
 ### Matrix
@@ -730,7 +730,7 @@ In Java and high-level languages we don't have to do it manually, the language i
 which is nothing more than a vector of letters, with each letter occupying a position and the vector size being the size of the String.
 Interesting to know what the interpreter does for us, right?
 
-Now, at the control structures_folder, inside the src folder, we have a Java program called Matrix.java, 
+Now, at the data_structure folder, inside the src folder, we have a Java program called Matrix.java, 
 it have matrix use examples. Read and try to rewrite them and understand, after this we continue with the next chapter!
 
 ### Lists
