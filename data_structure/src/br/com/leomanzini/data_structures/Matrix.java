@@ -1,4 +1,4 @@
-package br.com.leomanzini.control_structures;
+package br.com.leomanzini.data_structures;
 
 public class Matrix {
 
